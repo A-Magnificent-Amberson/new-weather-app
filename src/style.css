@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #878787;
+  color: #f1b963;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -31,7 +31,7 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 2px double #dadde1;
   border-radius: 5px;
 }
 
@@ -69,5 +69,9 @@ li:first-letter {
 }
 
 .weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.active {
   text-decoration: none;
 }
